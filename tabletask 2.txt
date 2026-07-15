@@ -1,0 +1,31 @@
+<html>
+<head>
+</head>
+<body>
+<h1>Time Table</h1>
+<table>
+<tr>
+<td colspan="10>Periods</td>
+
+
+
+
+
+
+
+
+
+
+</table>
+
+
+
+
+</body>
+
+
+
+
+
+
+</html>

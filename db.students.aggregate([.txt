@@ -1,0 +1,24 @@
+db.students.aggregate([
+   {
+    $match:{department:"CSE}
+},
+{
+$sort:{marks:-1}
+},
+{$sort:{marks:-1}
+},
+{
+$limit:1
+}
+])
+db.student.aggregate([
+  {
+    $match:{department:"CS"}
+  },
+  {
+    $sort:{marks:-1}
+  },
+  {
+    $limit:1
+  }
+])
