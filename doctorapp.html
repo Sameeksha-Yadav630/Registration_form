@@ -1,0 +1,89 @@
+<html>
+<head>
+</head>
+<body>
+<form>
+<h2><u>Doctor Appointment Form</u></h2>
+Patient Name:
+<input type="text" name="name"/>
+<br><br>
+Father's/Guardian Name:
+<input type="text" name="fathername"/>
+<br><br>
+Age:
+<input type="number" name="age"/>
+<br><br>
+Gender:
+<input type="radio" name="Gender" value="Male"/>Male
+<input type="radio" name="Gender" value="Female"/>Female
+<br><br>
+Mobile number:
+<input type="number" name="mobile"/>
+<br><br>
+Email:
+<input type="email" name="email"/>
+<br><br>
+Address:
+<textarea>
+</textarea>
+<br><br>
+Date of Appointment:
+<input type="date" name="appointment_date"/>
+<br><br>
+Preferred Time:
+<input type="time" value="00:00" name="time"/>
+<br><br>
+Department:
+<select name="department">
+<option></option>
+<option>General Physician</option>
+<option>Dentist</option>
+<option>Orthopedic</option>
+<option>ENT</option>
+<option>Eye Specialist</option>
+</select>
+<br><br>
+Doctor Name:
+<select name="doctor_name">
+<option>--Select--</option>
+<option>Sameeksha Yadav</option>
+<option>Surbhi Patwa</option>
+<option>Riya Thakur</option>
+<option>Pushkar Singh</option>
+<option>Sudhir Shukla</option>
+</select>
+<br><br>
+Symptoms/Reason for Visit:
+<textarea>
+</textarea>
+<br><br>
+Blood group:
+<select>
+<option>A+</option>
+<option>A-</option>
+<option>B+</option>
+<option>B-</option>
+<option>AB+</option>
+<option>AB-</option>
+<option>O+</option>
+<option>O-</option>
+</select>
+<br><br>
+Payment Method:
+<input type="radio" name="payment" value="Cash"/>Cash
+<input type="radio" name="payment" value="UPI"/>UPI
+<input type="radio" name="payment" value="Card"/>Card
+<br><br>
+Upload previous report(Optional):
+<input type="file" name="previous_report"/>
+<br><br>
+Terms & Conditions:
+<input type="checkbox" name="terms"/>
+I hereby declare that the information provided by me is true and correct.
+<br><br>
+<input type="submit" value="Submit"/>
+<input type="reset" value="reset"/>
+<input type="button" value="Print" onclick="window.print()"/>
+</form>
+</body>
+</html>
