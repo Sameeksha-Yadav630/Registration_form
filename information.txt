@@ -1,3 +1,0 @@
-div is a container tag 
-iska koi semantic meaning nhii hota.
-div ka use division ya block bnane ke liye use hota hai
